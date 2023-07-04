@@ -65,11 +65,3 @@ class _TodosHomeState extends State<TodosHome> {
     );
   }
 }
-
-/*
-
-ChatGPT Assistance:
-
-https://chat.openai.com/c/ab644fa0-1a96-4df7-b9e5-e181dcf16e30
-
-*/
