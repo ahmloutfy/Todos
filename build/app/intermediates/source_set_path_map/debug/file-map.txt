@@ -1,0 +1,12 @@
+com.example.todos.app-debug-0 D:\Programming\FlutterProjects\Apps\Ongoing\todos\android\app\src\debug\res
+com.example.todos.app-main-1 D:\Programming\FlutterProjects\Apps\Ongoing\todos\android\app\src\main\res
+com.example.todos.app-pngs-2 D:\Programming\FlutterProjects\Apps\Ongoing\todos\build\app\generated\res\pngs\debug
+com.example.todos.app-resValues-3 D:\Programming\FlutterProjects\Apps\Ongoing\todos\build\app\generated\res\resValues\debug
+com.example.todos.app-rs-4 D:\Programming\FlutterProjects\Apps\Ongoing\todos\build\app\generated\res\rs\debug
+com.example.todos.app-mergeDebugResources-5 D:\Programming\FlutterProjects\Apps\Ongoing\todos\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.todos.app-mergeDebugResources-6 D:\Programming\FlutterProjects\Apps\Ongoing\todos\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.todos.app-merged_res-7 D:\Programming\FlutterProjects\Apps\Ongoing\todos\build\app\intermediates\merged_res\debug
+com.example.todos.app-jetified-window-java-1.0.0-beta04-8 D:\ProgrammingTools\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.todos.app-core-1.6.0-9 D:\ProgrammingTools\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.example.todos.app-jetified-annotation-experimental-1.1.0-10 D:\ProgrammingTools\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.todos.app-jetified-window-1.0.0-beta04-11 D:\ProgrammingTools\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
