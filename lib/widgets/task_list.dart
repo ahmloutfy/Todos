@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:todos/models/tasks.dart';
 
 import '../constants.dart';
 import 'custom_button.dart';
@@ -71,9 +70,7 @@ SizedBox buildTaskList(
                           setState(() {
                             FocusScope.of(context).requestFocus(taskFocusNode);
                             editATask(
-                                Tasks(
-                                  nameOfTask: taskController.text,
-                                )
+                                taskController.text = listOfTasks[index].nameOfTask
                             );
                             FocusScope.of(context).unfocus();
                             taskController.clear();

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
+import '../models/tasks.dart';
 import 'empty_field_alert.dart';
 
 class AddNewToDo extends StatefulWidget {
@@ -20,6 +21,9 @@ class AddNewToDo extends StatefulWidget {
 }
 
 class _AddNewToDoState extends State<AddNewToDo> {
+
+  Tasks? missions;
+
   @override
   void dispose() {
     taskController.dispose();
@@ -80,18 +84,23 @@ class _AddNewToDoState extends State<AddNewToDo> {
         FloatingActionButton(
           onPressed: () {
             setState(() {
-              if (taskController.text.isNotEmpty) {
-                FocusScope.of(context).requestFocus(taskFocusNode);
-                widget.addTodo(taskController.text);
-                FocusScope.of(context).unfocus();
-                taskController.clear();
-              } else if (editTodoItem) {
-                FocusScope.of(context).requestFocus(taskFocusNode);
-                widget.editTodo(taskController.text);
-                FocusScope.of(context).unfocus();
-                editTodoItem = false;
-                taskController.clear();
-              } else {
+              if (missions!= null) {
+                editATask(
+                    Tasks(
+                      nameOfTask: taskController.text,
+                    )
+                );
+
+              } else if (missions == null) {
+
+                addATask(
+                    Tasks(
+                      nameOfTask: taskController.text,
+                    ),
+                );
+              }
+
+                else {
                 setState(() {
                   showAlertDialog(context);
                 });

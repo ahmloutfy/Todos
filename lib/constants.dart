@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 
 import 'models/tasks.dart';
 
-void addATask(String taskName) {
-  final newTask = Tasks(nameOfTask: taskName);
-  listOfTasks.add(newTask);
+void addATask(Tasks taskName) {
+  listOfTasks.add(taskName);
+  taskController.clear();
 }
 
 void editATask(Tasks newTodo) {
